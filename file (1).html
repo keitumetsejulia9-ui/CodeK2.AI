@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered Learning Assistant</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-bg: #f8fafc;
+            --card-bg: #ffffff;
+            --text-primary: #1e293b;
+            --text-secondary: #475569;
+            --accent: #3b82f6;
+            --border-radius: 12px;
+            --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--primary-bg);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 20px 0;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        
+        h2 {
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin: 30px 0 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        p {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+        
+        ul {
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+        }
+        
+        .card {
+            background: var(--card-bg);
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            border-top: 1px solid #e2e8f0;
+        }
+        
+        .footer a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+        
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+            
+            .card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI-Powered Learning Assistant</h1>
+        </header>
+        
+        <main>
+            <div class="card">
+                <p>An AI-powered assistant designed to help students and beginners generate structured code snippets, explanations, and learning resources quickly and</p>
+                
+                <p>This project provided valuable experience in working with ERNIE’s AI models, fine-tuning them, and deploying the solution through a web interface that is beginner-friendly and interactive.</p>
+            </div>
+            
+            <div class="card">
+                <h2>Challenges Faced</h2>
+                <ul>
+                    <li>Integrating ERNIE API with limited official documentation.</li>
+                    <li>Handling large AI model responses efficiently.</li>
+                    <li>Designing an intuitive UI that caters to beginners without overwhelming them.</li>
+                </ul>
+            </div>
+            
+            <div class="card">
+                <h2>Built With</h2>
+                <ul>
+                    <li>Languages: Python, JavaScript, HTML, CSS</li>
+                    <li>Frameworks: Flask (Backend), Bootstrap (Frontend)</li>
+                    <li>AI Models: ERNIE Text Generation</li>
+                    <li>APIs: Baidu ERNIE API, Hugging Face Transformers</li>
+                    <li>Hosting: Render / Vercel / Replit</li>
+                    <li>Collaboration Tools: GitHub, Google Colab</li>
+                </ul>
+            </div>
+            
+            <div class="card">
+                <h2>What to Submit</h2>
+                <ul>
+                    <li>Deployed web page hosted on GitHub Pages generated from my PDF.</li>
+                    <li>URL to open-sourced fine-tuned model weights.</li>
+                    <li>URL to code repository including training code, data, hyperparameters, and README.</li>
+                    <li>Text description explaining features and functionality.</li>
+                    <li>Demo video (≤ 5 minutes) showcasing fine-tuned model performance.</li>
+                </ul>
+            </div>
+        </main>
+        
+        <footer class="footer">
+            Powered by <a href="https://github.com/PaddlePaddle/PaddleOCR" target="_blank">PaddleOCR-VL</a> and <a href="https://huggingface.co/BAIDU" target="_blank">ERNIE</a>
+        </footer>
+    </div>
+</body>
+</html>
